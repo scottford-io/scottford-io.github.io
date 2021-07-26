@@ -1,0 +1,9 @@
+baseURL = "https://scottford-io.github.io/"
+languageCode = "en-us"  # Update to "en-gb" if you prefer, or another language!
+theme = "anatole"
+enableEmoji = true
+
+[params]
+title = "three times to get it right"
+author = "scott ford"
+description = "Musings of a simple man interested in helping others, and creating more"
