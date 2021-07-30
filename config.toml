@@ -7,3 +7,55 @@ enableEmoji = true
 title = "three times to get it right"
 author = "scott ford"
 description = "Musings of a simple man interested in helping others, and creating more"
+profilePicture = "images/profile_pic.png"
+mainSections = ["blog"]
+displayMode = "light"
+readMore = true
+contactFormAction = "https://formspree.io/f/xqkwyzwr"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+rssFullContent = true
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "posts"
+  url = "/blog/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/scottford-io/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/scottford-io"
+
+[[params.socialIcons]]
+icon = "fab fa-youtube-square"
+title = "YouTube"
+url = ""
+
+[[params.socialIcons]]
+icon = "fab fa-instagram-square"
+title = "Instagram"
+url = "https://www.instagram.com/scottford_io/"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter-square"
+title = "Twitter"
+url = "https://twitter.com/scottford_io"
